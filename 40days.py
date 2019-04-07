@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 from datetime import timedelta
 from string import Template
 
@@ -6,8 +7,8 @@ import yaml
 import argparse
 
 parser = argparse.ArgumentParser(description='Import 40days program to Todoist.')
-parser.add_argument('--yaml', required=True)
-parser.add_argument('--token', required=False)
+parser.add_argument('--yaml', help="YAML file with tasks plan", required=True)
+parser.add_argument('--token', help="Todoist API token. Can be obtained Todoist -> settings -> integrations -> Token API", required=False)
 
 args = parser.parse_args()
 
