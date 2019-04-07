@@ -25,8 +25,7 @@ pip install -r requirements.txt
 * Можно отредактировать продолжительность и прочие настройки. 
 
 ```bash
-pip install -r requirements.txt
-python 40days_todoist.py --yaml 40days_sample.yml --token <your todoist token>
+python 40days.py --yaml 40days_sample.yml --token <your todoist token>
 ``` 
 
 ## Особенности
