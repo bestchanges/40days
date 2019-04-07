@@ -14,6 +14,7 @@
 
 * Уставноить [python 3.x](https://www.python.org/downloads/) 
 * Установить [pip](https://pypi.org/project/pip/)
+* затем:
 ```bash
 pip install -r requirements.txt
 ``` 
@@ -23,6 +24,7 @@ pip install -r requirements.txt
 * Отредактировать план задач 40days.yml, внесите туда задачи, которые вы будете выполнять в течение 40 дней. 
 * Укажите дату начала работы. 
 * Можно отредактировать продолжительность и прочие настройки. 
+* затем:
 
 ```bash
 python 40days.py --yaml 40days_sample.yml --token <your todoist token>
