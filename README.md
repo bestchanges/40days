@@ -20,3 +20,4 @@ python 40days_todoist.py --yaml 40days_sample.yml --token <your todoist token>
 
 ## особенности
 * если в аккаунте todoist уже были задачи с точно таким же содержанием, то они удаляются и создаются заново. 
+* прочесть в формате yml можно здесь https://learnxinyminutes.com/docs/yaml/
