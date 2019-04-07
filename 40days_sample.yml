@@ -1,0 +1,28 @@
+period:
+  start: 2019-04-13
+  duration: 40
+task_base: &task_base
+  project: 40дней
+  date_string: каждый день
+  date_string_append: с $period_start до $period_end
+  date_lang: ru
+tasks:
+  - content: вставать рано утром
+    <<: *task_base
+    date_string: каждый день в 5:00
+  - content: спорт
+    <<: *task_base
+  - content: пить только воду
+    <<: *task_base
+  - content: читать книги
+    <<: *task_base
+  - content: не есть мучное
+    <<: *task_base
+  - content: контрастный душ
+    <<: *task_base
+  - content: вести дневник
+    <<: *task_base
+  - content: только позитивный контент
+    <<: *task_base
+  - content: поставить на день важную задачу
+    <<: *task_base
